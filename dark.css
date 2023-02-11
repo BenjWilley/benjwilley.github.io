@@ -1,0 +1,218 @@
+
+/*how I make the shark change direction*/
+
+.SharkButtonText{
+  position: relative;
+  font-weight: bold; 
+  font-size: large;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+
+/* makinging it to where you cannot scroll*/
+
+html{
+    
+    height: 100%; 
+    overflow: hidden;
+    
+  }
+
+
+body {
+    background-color: #a9d5dc;
+    z-index:-2;
+	color: rgb(34, 28, 113);
+    size: 100% 100%;
+    
+}
+
+/*useful classes to be used across the subpages and index page*/
+.linkColor{
+    color: rgb(34, 28, 113);
+  }
+.linkColorQual{
+    color: rgb(34, 28, 113);
+}
+.shrinkImage{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.text{
+    color: rgb(34, 28, 113);
+    text-align: center;
+    font-size: larger;
+    font-family: 'proxima-nova', sans-serif;
+    
+}
+
+   .AboutMeSpacing{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 4%;
+   }
+
+   /*supplement buttons*/
+
+   .ThemeButton {
+    background-color: transparent;
+    border: rgb(34, 28, 113);
+    color: rgb(34, 28, 113);
+    width: 100px;
+    border: 2px solid;
+    height: 30px;
+   }
+  
+   .LinkedinButton {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png');
+    background-size: cover;
+    background: solid transparent;
+    width: 100px;
+    height: 30px;
+    text-align: right;
+   }
+
+   /*general styling for the water sub pages*/
+   
+
+  
+   .Portfolio {
+    border: 40px solid transparent;
+    
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+   }
+   
+  
+   .Service {
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+  
+    
+   }
+   .Qualifications{
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+   }
+   .AI{
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+   }
+
+
+
+   .SubpageStyle{
+    
+  
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  
+    font-size: medium;
+    font-family: 'proxima-nova', sans-serif;
+    
+  }
+
+   /*rope Buttons*/
+    .PortfolioButton {
+    background-color: transparent;
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+    
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    
+   }
+
+   .QualificationsButton {
+    background-color: transparent;
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    
+   }
+
+   .ServiceButton {
+    background-color: transparent; 
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+    
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    
+   }
+
+   
+/* This will help break up the AI page */
+.AIGrid{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.qualificationsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+
+
+   .AIButton {
+    background-color: transparent; 
+    border: 40px solid transparent;
+    border-image: url('https://i.pinimg.com/originals/87/90/d6/8790d666272bfc3747af9c6ff8458891.png') 300 round;
+
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+   }
+
+   button{
+    transition: transform .2s;
+  }
+  
+  button:hover{
+    transform:scale(1.05);
+  }
+
+
+
+
+.star {
+    --size: "";
+    --sizeBubble: "";
+    --color:"";
+    position: absolute;
+    width: var(--sizeBubble);
+    height: var(--sizeBubble);
+    background-color: #78e3da;
+    border: solid;
+    border-radius: 3px;
+    border-color: rgb(var(--color), 193,209);
+    border-radius: 50%;
+    z-index:-1;
+    }

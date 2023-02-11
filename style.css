@@ -1,0 +1,224 @@
+
+
+/* CLASSES THAT CAUSE ANIMATION OR EFFECTS*/
+
+.SharkButtonText{
+  position: absolute; 
+  font-weight: bold; 
+  font-size: large;
+}
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+ 
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 10px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+button{
+  transition: transform .2s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+
+/*ASSORTED CLASSES I MADE AS I NEEDED*/
+
+.text{
+  font-family:'Courier New';
+  color:aliceblue;
+}
+
+.linkColor{
+  color: white;
+}
+
+.buttonText{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.AboutMeSpacing{
+  margin: 1% 1px 15% 43%;
+  position: absolute;
+}
+
+.black{
+  color: blackS;
+}
+
+
+.ThemeButton {
+  background-color: rgb(0, 0, 0);
+  border: rgb(255, 242, 242);
+  color: rgb(255, 255, 255);
+  width: 100px;
+  border: 2px solid;
+  height: 30px;
+ }
+
+
+.LinkedinButton {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png');
+  background-size: cover;
+  background: solid transparent;
+  width: 100px;
+  height: 30px;
+  text-align: right;
+ }
+
+/* the planets   SPACING FROM EACH OTHER AND THE BUTTONS*/
+.PortfolioSpacing{
+
+  margin-left: 15%;
+  margin-top: 1px;
+  margin-right: auto;
+  position: absolute;
+}
+
+.PortfolioButton {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6d4115e-d697-43a3-9d3d-176e094237fd/dctgddr-d7dc58c1-57d2-4ded-8a85-9783c7b02710.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZDQxMTVlLWQ2OTctNDNhMy05ZDNkLTE3NmUwOTQyMzdmZFwvZGN0Z2Rkci1kN2RjNThjMS01N2QyLTRkZWQtOGE4NS05NzgzYzdiMDI3MTAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NTVqhKkF31pB6GJSWj9OgCuEMnYeUqTqmSpQNJu6Z6U');
+  background-size: cover;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+ }
+
+ .QualificationsSpacing{
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 400px;
+  margin-right: auto;
+  
+}
+
+ .QualificationsButton {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6d4115e-d697-43a3-9d3d-176e094237fd/dctgdnk-f2e8ca33-0127-49f2-8c1d-22f2b41ed34e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZDQxMTVlLWQ2OTctNDNhMy05ZDNkLTE3NmUwOTQyMzdmZFwvZGN0Z2Ruay1mMmU4Y2EzMy0wMTI3LTQ5ZjItOGMxZC0yMmYyYjQxZWQzNGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0c9eUMNaCaZWuF_0A2cY-rIYQlKKOIQbOMCNqXXyifE');
+  background-size: cover;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+ }
+
+ .ServiceSpacing{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 800px;
+  margin-right: auto;
+  
+}
+
+ .ServiceButton {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6d4115e-d697-43a3-9d3d-176e094237fd/dctgdi8-30fa0745-a217-4f77-a41f-ade375df3525.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZDQxMTVlLWQ2OTctNDNhMy05ZDNkLTE3NmUwOTQyMzdmZFwvZGN0Z2RpOC0zMGZhMDc0NS1hMjE3LTRmNzctYTQxZi1hZGUzNzVkZjM1MjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dAlp7-U5s_EVWa1GQ8icEIk-ciivAvbkZRaDkYVMwjA');
+  background-size: cover;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+ }
+ 
+ .AISpacing{
+  position:absolute;
+  margin-left: 60%;
+  margin-top: 1200px;
+  margin-right: auto;
+  
+}
+
+ .AIButton {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6d4115e-d697-43a3-9d3d-176e094237fd/dctge47-8283c2fd-91b4-49e1-8659-760ab38e1dd6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZDQxMTVlLWQ2OTctNDNhMy05ZDNkLTE3NmUwOTQyMzdmZFwvZGN0Z2U0Ny04MjgzYzJmZC05MWI0LTQ5ZTEtODY1OS03NjBhYjM4ZTFkZDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-fXOl_AnO6ksR4ZFq8DipuVldwovzajKsEt1NhztWGM');
+  background-size: cover;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+ }
+ 
+
+
+
+/* this is the styling for the sub pages */
+.SubpageStyle{
+  background-color: rgb(224, 232, 233,.75);
+  padding: 20px;
+  border-radius: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1.5%;
+  text-align: center;
+  color: black;
+  font-size: larger;
+  font-family: 'Montserrat';
+  
+}
+
+
+.portfolio {
+  background-image: url("http://astronomy.com/~/media/17DD1A0DC76D46D79CD73654A8F027F2.jpg");
+  background-color: #cccccc;
+  background-size: 100%;
+  z-index: 0;
+  
+ }
+
+.qualifications {
+  background-image: url("http://spaceflightnow.com/wp-content/uploads/2020/05/aerial.jpg");
+  background-color: #232323;
+  background-size: 100%;
+  z-index: 100
+
+ }
+ 
+ .qualificationsGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .linkColorQual{
+  color:black;
+ }
+ 
+  .AI {
+  background-color: #222222;
+  background-image: url("https://images.wsj.net/im-308056/portrait?pixel_ratio=2");
+  background-size: 100%;
+  z-index: 0;
+ }
+ 
+
+ 
+ .Service {
+  background-image: url("https://images.unsplash.com/photo-1529801877115-8a69a227fcc0?ixid=MnwyNTE2NnwwfDF8c2VhcmNofDR8fHNhbHQlMjBmbGF0fGVufDB8fHx8MTY1NjEyMDcyNA&ixlib=rb-1.2.1&q=85&w=2160");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+  z-index: 0;
+ }
+
+
+
+/*STAR BACKGROUND*/
+
+body.landing {
+  background-color: black;
+  z-index: -2;
+}
+
+
+.star {
+--size: "";
+--color: "";
+position: absolute;
+width: var(--size);
+height: var(--size);
+background: rgb(74, 195, 211);
+border-radius: 50%;
+z-index: -1;
+}
+
