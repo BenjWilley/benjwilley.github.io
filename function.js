@@ -38,9 +38,9 @@ function load_style()
 
     if (page_style === null)
     {
-     page_style = "dark.css";
-     marqueeTheme = "https://thumbs.gfycat.com/HonorableHighlevelAnt.webp";
-     iconID ="https://cdn-icons-png.flaticon.com/512/2622/2622150.png";
+     page_style = "style.css";
+     marqueeTheme = "https://media.moddb.com/images/games/1/63/62622/Rocket_Ship_moving_1.gif";
+     iconID ="https://www.iconpacks.net/icons/2/free-rocket-icon-3432-thumb.png";
     }
     document.getElementById('page_style').setAttribute("href", page_style);
     document.getElementById('iconID').setAttribute("href", iconID);
