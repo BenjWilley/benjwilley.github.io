@@ -1,24 +1,10 @@
-import React, { useState } from 'react';
-
-function SimpleButton() {
-
-  const [count, setCount] = useState(0);
-
-  const handleClick = () => {
-
-    setCount(count + 1);
-  }
-
-  return (
-    <div>
-        
-
-      <button onClick={handleClick}>click the button</button>
-
-      <p>clicked {count} times.</p>
-    </div>
-  );
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+  
+function App() { 
+  return <h1>Hello, World!</h1>
 }
-
-export default SimpleButton;
+  
+const rootElement = document.getElementById('root')
+console.log(App())
+ReactDOM.render(<App />, rootElement)
