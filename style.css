@@ -86,7 +86,7 @@ button:hover{
 }
 
 .PortfolioButton {
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fscience%2Farticle%2Fmars-1&psig=AOvVaw0I2IFk_o3nTKTjptIDGleF&ust=1680097525971000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDTu5fh_v0CFQAAAAAdAAAAABAD');
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6d4115e-d697-43a3-9d3d-176e094237fd/dctgddr-d7dc58c1-57d2-4ded-8a85-9783c7b02710.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E2ZDQxMTVlLWQ2OTctNDNhMy05ZDNkLTE3NmUwOTQyMzdmZFwvZGN0Z2Rkci1kN2RjNThjMS01N2QyLTRkZWQtOGE4NS05NzgzYzdiMDI3MTAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NTVqhKkF31pB6GJSWj9OgCuEMnYeUqTqmSpQNJu6Z6U');
   background-size: cover;
   border-radius: 50%;
   width: 350px;
@@ -161,7 +161,7 @@ button:hover{
 
 
 .portfolio {
-  background-image: url("http://astronomy.com/~/media/17DD1A0DC76D46D79CD73654A8F027F2.jpg");
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fscience%2Farticle%2Fmars-1&psig=AOvVaw0I2IFk_o3nTKTjptIDGleF&ust=1680097525971000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDTu5fh_v0CFQAAAAAdAAAAABAD");
   background-color: #cccccc;
   background-size: 100%;
   z-index: 0;
