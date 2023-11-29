@@ -58,7 +58,7 @@ function light_mode()
 function dark_mode()
 {
     localStorage.setItem("page_stylesheet_name", "dark.css");
-    localStorage.setItem("marqueeThemeName", "https://thumbs.gfycat.com/HonorableHighlevelAnt.webp");
+    localStorage.setItem("marqueeThemeName", "https://static.myfigurecollection.net/upload/pictures/2023/02/16/3467542.gif");
     localStorage.setItem("iconTheme", "https://cdn-icons-png.flaticon.com/512/2622/2622150.png");
   
     load_style();
