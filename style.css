@@ -96,7 +96,7 @@ button:hover{
  .QualificationsSpacing{
   position: absolute;
   margin-left: 55%;
-  margin-top: 400px;
+  margin-top: 300px;
   margin-right: auto;
   
 }
@@ -112,7 +112,7 @@ button:hover{
  .ServiceSpacing{
   position: absolute;
   margin-left: 10%;
-  margin-top: 800px;
+  margin-top: 600px;
   margin-right: auto;
   
 }
@@ -128,7 +128,7 @@ button:hover{
  .AISpacing{
   position:absolute;
   margin-left: 60%;
-  margin-top: 1200px;
+  margin-top: 1000px;
   margin-right: auto;
   
 }
