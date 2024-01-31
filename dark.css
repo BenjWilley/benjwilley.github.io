@@ -176,6 +176,18 @@ display: grid;
    }
 
 
+   
+ .sand-floor {
+  height: 50px; /* Adjust the height as needed */
+  background-color: #e0cda9; /* Sand color */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  image-rendering: pixelated; /* Apply pixelated rendering */
+}
+ /*  kelp https://static.wikia.nocookie.net/dank_memer/images/9/9c/Seaweed.gif/revision/latest/scale-to-width/360?cb=20211012071137 */
+
 
    .AIButton {
     background-color: transparent; 
